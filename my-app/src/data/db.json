@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "email": "lil@gmail.com",
+    "password": "$2a$12$Iq0x4FXPjMAo3Ez33bHUr.XuEtEHlqI1EYhDN9DwJ4ehfXnJVu/Zu",
+    "firstName": "lil@gmail.com",
+    "lastName": "lil@gmail.com"
+  },
+  {
+    "id": 2,
+    "email": "fty@gmail.com",
+    "password": "$2a$12$oaY5cDIzWNbdNxNLgCoLAO6axv.rK1cRHPybvaW4zb89aJeHDSQ8W",
+    "firstName": "iop",
+    "lastName": "pop"
+  },
+  {
+    "id": 3,
+    "email": "till@gmail.com",
+    "password": "$2a$12$gwplfukXbIu8MByU4le97.d829wVfpm7AqTZ5o3rU6q4rXP8rSrGi",
+    "firstName": "till",
+    "lastName": "xeus"
+  },
+  {
+    "id": 4,
+    "email": "rama@gmail.com",
+    "password": "$2a$12$KPk38ntoLytlU6qDvmIp3OGyLAcOp.yloGJAaaxU9nN7bypFSUtnG",
+    "firstName": "rama",
+    "lastName": "Khan"
+  },
+  {
+    "id": 5,
+    "email": "wered@gmail.com",
+    "password": "$2a$12$kxxphfkZnYdGM47ykGwzyuafTYJYOCkPLReEC5S8u8NWZOEzm5L.W",
+    "firstName": "popled",
+    "lastName": "roy"
+  }
+]

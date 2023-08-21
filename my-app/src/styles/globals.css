@@ -1,0 +1,6 @@
+#nav-main {
+  display: flex;
+  padding-top: 3px;
+  justify-content: space-between;
+  color: #00b5ff;
+}

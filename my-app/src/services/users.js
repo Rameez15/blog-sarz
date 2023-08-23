@@ -56,4 +56,5 @@ export async function save(email, password, firstName, lastName) {
   });
 
   fs.writeFileSync(filePath, JSON.stringify(data));
+  return { email };
 }

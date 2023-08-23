@@ -33,5 +33,12 @@
     "password": "$2a$12$kxxphfkZnYdGM47ykGwzyuafTYJYOCkPLReEC5S8u8NWZOEzm5L.W",
     "firstName": "popled",
     "lastName": "roy"
+  },
+  {
+    "id": 6,
+    "email": "billo@gmail.com",
+    "password": "$2a$12$uMIMF7zyUpNESDJpE5FAs.rBYUZ64VHy3UkFFzPwxTiZ/iJubk.bS",
+    "firstName": "billo",
+    "lastName": "raja"
   }
 ]

@@ -6,12 +6,10 @@ const Navbar = ({ handle, children }) => {
 
   const ibContStyle = {
     display: "flex",
-    width: "100px",
+    width: "10em",
     justifyContent: "space-between",
-    marginTop: "2px",
   };
   const btnContainer = {
-    display: "flex",
     fontSize: "16px",
     width: "5em",
     marginTop: "2px",
@@ -27,10 +25,20 @@ const Navbar = ({ handle, children }) => {
         <div>
           <h1 style={headStyle}>SARZ</h1>
         </div>
-        <div style={handle ? btnContainer : btnHide}>
-          <Link href={`/auth/${text}`}>
-            <Button type="primary">{children}</Button>
-          </Link>
+
+        <div style={ibContStyle}>
+          <div>
+            <div style={handle ? btnContainer : btnHide}>
+              <Link href={`/profile`}>
+                <Button type="primary">Profile</Button>
+              </Link>
+            </div>
+          </div>
+          <div style={handle ? btnContainer : btnHide}>
+            <Link href={`/auth/${text}`}>
+              <Button type="primary">{children}</Button>
+            </Link>
+          </div>
         </div>
       </div>
     </>

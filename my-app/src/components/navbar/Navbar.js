@@ -28,7 +28,7 @@ const Navbar = ({ handle, children }) => {
 
         <div style={ibContStyle}>
           <div>
-            <div style={handle ? btnContainer : btnHide}>
+            <div style={handle ? btnHide : btnContainer}>
               <Link href={`/profile`}>
                 <Button type="primary">Profile</Button>
               </Link>

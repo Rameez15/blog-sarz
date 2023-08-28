@@ -1,6 +1,8 @@
 import Form from "@/components/forms/signup";
+import { useRouter } from "next/router";
 
 export default function SignUp() {
+  const router = useRouter();
   const onSubmit = async (
     email,
     password,
@@ -9,7 +11,7 @@ export default function SignUp() {
     confPassword
   ) => {
     try {
-      const response = await fetch("/api/authen/signup", {
+      const response = await fetch("/api/auth/signup", {
         method: "POST",
         body: JSON.stringify({
           email,
@@ -24,6 +26,7 @@ export default function SignUp() {
       });
       if (response.ok) {
         alert("Sign up Succesful");
+        router.replace("/profile");
       }
     } catch (err) {
       console.error(err);

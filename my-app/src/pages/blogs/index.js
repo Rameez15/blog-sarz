@@ -9,7 +9,7 @@ export default function Blog() {
   };
   return (
     <>
-      <Header handler={false}>log out</Header>
+      <Header handler={true}>Login</Header>
 
       <div style={blogContainer}>
         <Item />

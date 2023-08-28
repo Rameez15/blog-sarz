@@ -66,7 +66,7 @@ export default function SignUp(props) {
 
 export async function getServerSideProps({ req }) {
   const session = await getSession({ req });
-  if (session) {
+  if (!session) {
     return {
       redirect: {
         destination: "/auth/Login",

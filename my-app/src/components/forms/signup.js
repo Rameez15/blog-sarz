@@ -32,6 +32,7 @@ export default function Form({ onFormSubmit }) {
     height: "2em",
     borderRadius: "4px",
     marginBottom: "1em",
+    border: "solid 1px",
     backgroundColor: "white",
   };
   const btnStyle = {
@@ -40,6 +41,7 @@ export default function Form({ onFormSubmit }) {
     backgroundColor: "#197fff",
     color: "#000",
     borderRadius: "5px 5px ",
+    border: "solid 1px",
   };
   const subStyle = {
     height: "450px",
@@ -121,6 +123,7 @@ export default function Form({ onFormSubmit }) {
                     height: "2em",
                     borderRadius: "5px 5px",
                     width: "30em",
+                    border: "solid 1px",
                   }}
                   id="I5"
                   ref={emailRef}
@@ -128,9 +131,16 @@ export default function Form({ onFormSubmit }) {
                   required
                 />
               </div>
-              <div style={{ paddingBottom: "1em" }}>
-                <Link href={"/auth/Login"}>
-                  {"Already have an account? Sign in"}
+              <div
+                style={{
+                  paddingBottom: "1em",
+                  fontWeight: "bold",
+                  paddingInline: "5em",
+                }}
+              >
+                Already have an account?
+                <Link style={{ paddingLeft: "6px" }} href={"/auth/Login"}>
+                  {"Sign in"}
                 </Link>
               </div>
               <div>

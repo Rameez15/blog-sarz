@@ -1,4 +1,4 @@
-import { getByEmail, verifyPassword } from "@/services/users";
+import { getByEmail, verifiedPassword } from "@/services/users";
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 export const authOptions = {
@@ -13,7 +13,7 @@ export const authOptions = {
           throw new Error("User not Found");
         }
 
-        const isValid = await verifyPassword(user.password, password);
+        const isValid = await verifiedPassword(user.password, password);
         if (!isValid) {
           throw new Error("Incorrect Password");
         }

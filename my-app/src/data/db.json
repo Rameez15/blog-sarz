@@ -40,5 +40,12 @@
     "password": "$2a$12$uMIMF7zyUpNESDJpE5FAs.rBYUZ64VHy3UkFFzPwxTiZ/iJubk.bS",
     "firstName": "billo",
     "lastName": "raja"
+  },
+  {
+    "id": 7,
+    "email": "pak@gmail.com",
+    "password": "$2a$12$yJ6kpi4ws95blJNr3UBWuetJtjAHnykQg/zytnn0jFXZnaXf2Oehe",
+    "firstName": "paki",
+    "lastName": "147"
   }
 ]

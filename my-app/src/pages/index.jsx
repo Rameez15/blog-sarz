@@ -13,7 +13,7 @@ export default function () {
   };
   return (
     <>
-      <Header handler={true}>Login</Header>
+      <Header handler={false}>Login</Header>
 
       <div style={mainStyles}>
         <Link style={{ textDecoration: "none" }} href={"/blogs"}>

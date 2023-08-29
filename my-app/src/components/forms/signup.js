@@ -56,7 +56,7 @@ export default function Form({ onFormSubmit }) {
   };
   return (
     <>
-      <Header handler={true}>Login</Header>
+      <Header handler={false}>Login</Header>
       <div id="main" style={mainStyle}>
         <div style={subStyle}>
           <div>

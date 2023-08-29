@@ -9,7 +9,7 @@ export default function Blog() {
   };
   return (
     <>
-      <Header handler={true}>Login</Header>
+      <Header handler={false}>Login</Header>
 
       <div style={blogContainer}>
         <Item />

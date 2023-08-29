@@ -51,7 +51,7 @@ export default function Forms({ onFormSubmit }) {
   };
   return (
     <>
-      <Header handler={true}>Signup</Header>
+      <Header handler={false}>Signup</Header>
       <div id="main" style={mainStyle}>
         <div id="sudContainer" style={subStyle}>
           <div>
